@@ -2,6 +2,13 @@
 
 Large-scale data analysis project processing ~3 million tweets using PySpark, focusing on data engineering, text analytics, and network behaviour.
 
+## Project Highlights
+
+- Processed ~3 million tweets using PySpark  
+- Built an end-to-end data cleaning pipeline  
+- Performed temporal, textual, and network analysis  
+- Identified behavioural patterns across troll account categories  
+
 ## Overview
 
 This project analyses nearly 3 million tweets linked to the Internet Research Agency (IRA), a Russian troll farm, using PySpark and Apache Spark.
@@ -50,6 +57,34 @@ The dataset contains tweets posted between 2012 and 2018 from accounts associate
 * Different account categories exhibited distinct behavioural patterns
 * Retweet structures suggest coordinated interaction strategies
 * Content varied depending on political alignment and account role
+
+* ## Example Outputs
+
+### Tweets per Year by Account Category
+Shows the evolution of tweet activity across different account categories, highlighting a strong increase between 2015 and 2017.
+
+![Tweets per Year](images/tweets_per_year.png)
+
+---
+
+### Monthly Composition by Account Category (%)
+Illustrates how the relative contribution of each account category changed over time, revealing shifts in content strategy.
+
+![Monthly Composition](images/monthly_composition.png)
+
+---
+
+### Retweet / Mention Network
+Network representation of interactions between accounts, highlighting connectivity patterns and potential coordination structures.
+
+![Network Analysis](images/network_analysis.png)
+
+---
+
+### Weekly Tweet Activity — Top Authors
+Displays activity patterns of the most active accounts, helping identify spikes and abnormal behaviour.
+
+![Weekly Activity](images/weekly_activity.png)
 
 ## How to Run
 
