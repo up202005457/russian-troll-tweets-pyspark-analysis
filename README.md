@@ -1,6 +1,7 @@
 # Russian Troll Tweets Big Data Analysis (PySpark)
 
 Large-scale data analysis project processing ~3 million tweets using PySpark, focusing on data engineering, text analytics, and network behaviour.
+This project demonstrates the use of PySpark for large-scale social media analysis, combining data engineering, exploratory data analysis, and network-based insights.
 
 ## Project Highlights
 
@@ -53,10 +54,14 @@ The dataset contains tweets posted between 2012 and 2018 from accounts associate
 
 ## Key Insights
 
-* Tweet activity increased significantly between 2015 and 2017
-* Different account categories exhibited distinct behavioural patterns
-* Retweet structures suggest coordinated interaction strategies
-* Content varied depending on political alignment and account role
+- Tweet activity increased significantly between 2015 and 2017, peaking around the 2016 US election period  
+- Distinct account categories exhibited different behavioural roles and content strategies  
+- Retweet structures suggest coordinated interaction patterns across specific accounts  
+- Content varied depending on political alignment and account function
+
+## Why This Project Matters
+
+This project demonstrates how large-scale social media data can be processed and analysed to uncover behavioural patterns, coordinated activity, and content strategies, which are critical in domains such as misinformation detection and digital analytics.
 
 * ## Example Outputs
 
